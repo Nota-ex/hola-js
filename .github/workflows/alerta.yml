@@ -18,7 +18,7 @@ jobs:
 
       - name: Enviar notificacion a ntfy
         run: |
-          curl -H "Title: Nuevo Push en main 🚀" \
+          curl -H "Title: Nuevo Push en main Nota-ex/hola-js 🚀" \
                -H "Priority: 3" \
                -d "Se ha realizado un nuevo push al repositorio en la rama main." \
                https://ntfy.sh/devops-itla
